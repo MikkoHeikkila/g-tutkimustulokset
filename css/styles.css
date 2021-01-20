@@ -1,0 +1,209 @@
+/* ==========================================================================
+   Bootstrap breakpoints
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+   ========================================================================== */
+
+/* ==========================================================================
+   General Tags
+   All HTML tags that need some generic/default styling.
+   No CSS classes or IDs here.
+========================================================================== */
+
+html, 
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*---------- Headings ----------*/
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
+}
+
+/*---------- Paragraphs ----------*/
+p{
+
+}
+
+/*---------- Links ----------*/
+a{
+
+}
+a:active,
+a:hover,
+a:focus {
+    outline: 0;
+}
+
+/*---------- Images ----------*/
+
+/*---------- Lists ----------*/
+
+/*---------- Hr ----------*/
+
+/*---------- Tables ----------*/
+
+/*---------- Buttons ----------*/
+
+/* ==========================================================================
+    Forms
+========================================================================== */
+form{
+
+}	
+input{
+
+}
+input[type="button"]{
+
+}
+input[type="submit"]{
+    
+}
+textarea{
+
+}
+
+/* ==========================================================================
+    Generic Classes
+    Styles shared among multiple elements and/or classes.
+    These are used on more than one section/page/html block.
+========================================================================== */
+
+/*---------- Colors ----------*/
+
+/*---------- Backgrounds ----------*/
+
+/*---------- Helpers ----------*/
+.w-100{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+/*------- Margins -------*/
+.mt-xs{margin-top: 15px;}
+.mt-sm{margin-top: 30px;}
+.mt-md{margin-top: 45px;}
+.mt-lg{margin-top: 60px;}
+.mt-xl{margin-top: 75px;}
+.mb-xs{margin-bottom: 15px;}
+.mb-sm{margin-bottom: 30px;}
+.mb-md{margin-bottom: 45px;}
+.mb-lg{margin-bottom: 60px;}
+.mb-xl{margin-bottom: 75px;}
+
+/*------- Paddings -------*/
+.pt-xs{padding-top: 15px;}
+.pt-sm{padding-top: 30px;}
+.pt-md{padding-top: 45px;}
+.pt-lg{padding-top: 60px;}
+.pt-xl{padding-top: 75px;}
+.pb-xs{padding-bottom: 15px;}
+.pb-sm{padding-bottom: 30px;}
+.pb-md{padding-bottom: 45px;}
+.pb-lg{padding-bottom: 60px;}
+.pb-xl{padding-bottom: 75px;}
+
+/* ==========================================================================
+    Structure/Content
+    Styles that define the page structure and/or 
+    are directly related with the page content.
+========================================================================== */
+
+/*---------- Header ----------*/
+
+/*--------- Navigation ---------*/
+
+/*--------- Body ---------*/
+body{
+    display: flex;
+    background-color: #fff;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.scene-bg-1{
+    background-color: plum;
+}
+.scene-bg-2{
+    background-color: blanchedalmond;
+}
+.scene-bg-3{
+    background-color: azure;
+}
+.scene-bg-4{
+    background-color: wheat;
+}
+
+.panel {
+    height: 100vh;
+    width: 200vw;
+    display: flex;
+    align-content: center;
+}
+.panel.active{
+    background-color: rebeccapurple;
+}
+.panel-content{
+    margin-left: 100px;
+}
+.panel-content h2{
+    font-size: 4rem;
+}
+
+.panel.white {
+    background-color: white;
+}
+.panel.turqoise {
+    background-color: yellow;
+}
+.panel.green {
+    background-color: green;
+}
+.panel.bordeaux{
+    background-color: red;
+}
+
+/*--------- Footer ---------*/
+.previous-scene-container{
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+}
+.next-scene-container{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+/* ==========================================================================
+    Modules
+    Styles that define module structure and layout.
+========================================================================== */
+
+
+/* ==========================================================================
+    Fonts
+========================================================================== */   
